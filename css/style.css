@@ -1,0 +1,656 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Myriad Pro';
+	font-weight: normal;
+	font-style: normal;
+	color: #797979;
+}
+
+body{
+	background-color: #f4f6f8;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.button{
+	border-radius: 20px;
+	border: 1px solid #ff3251;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #ff3251;
+	padding: 13px 0px;
+    text-align: center;
+	box-sizing: border-box;
+	width: 164px;
+	transition: .2s;
+}
+
+.button:hover{
+	background-color: #ff3251;
+    color: #fff;
+}
+
+/* ========================== header ==================== */
+
+header{
+	background: url(..//img/santa.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 737px;
+	background-position: center;
+}
+
+.navMini{
+	display: none;
+}
+
+nav{
+	background-color:rgba(255,255,255,0.8);
+	height: 80px;
+}
+
+.nav{
+	width: 1147px;
+	margin: 0 auto;
+}
+
+.nav ul{
+	float: left;
+}
+
+.nav ul li{
+	display: inline-block;
+	line-height: 80px;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	padding: 10px 4px;
+	margin-right: 42px;
+	color: inherit;
+	transition: .2s;
+}
+
+.nav ul li a:hover{
+	color: #ff3251;
+}
+
+.nav ul li:first-child {
+    color: #ff3251;   
+}
+
+.nav a.button{
+	float: right;
+	margin-top: 20px;
+}
+
+header h1{
+	font-size: 48px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 200px;
+	margin-top: 250px;
+}
+
+header a img{
+	display: block;
+	margin: 0 auto;
+}
+
+/* ========================== main ==================== */
+/* ====================== sectionAdvantage ================== */
+
+.sectionOne{
+	width: 100%;
+	background-color: #fff;
+}
+
+.sectionAdvantage{
+	padding-top: 82px;
+	padding-bottom: 74px;
+	width: 1147px;
+	margin: 0 auto;
+}
+
+.sectionAdvantage h2{
+	font-size: 25px;
+	color: #ff3251;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.sectionAdvantage p{
+	font-size: 16px;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 140px;
+}
+
+.advantage{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+.advantage h3{
+	color: #ff3251;
+	font-size: 16px;
+	margin-bottom: 18px;
+}
+
+.advantage p{
+	line-height: 18px;
+	font-size: 13px;
+	margin-bottom: 0;
+	
+}
+
+.advantage img{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.advantage h3 span{
+	color: #00c7c0;
+	font-size: 24px;
+}
+
+.advantage img.lastImg{
+	margin-bottom: 6px;
+}
+
+/* ====================== sectionPrice ================== */
+.sectionTwo{
+	width: 100%;
+	background-color: #f4f6f8;
+}
+
+.sectionPrice{
+	width: 1147px;
+	margin: 0 auto;
+	padding-top: 80px;
+	padding-bottom: 70px;
+}
+
+.sectionPrice h2{
+	font-size: 25px;
+	color: #ff3251;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.sectionPrice p{
+	font-size: 16px;
+	text-align: center;
+	line-height: 30px;
+	margin-bottom: 35px;
+}
+
+.sectionPrice div.buttons{
+	width: 755px;
+	margin: 0 auto;
+}
+
+.sectionPrice div.buttons a.button{
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 70px;
+}
+
+.sectionPrice div.buttons a.button:last-child{
+	margin-right: 0px;
+}
+
+.sectionPrice div.buttons a.button:first-child{
+	background-color: #ff3251;
+	color: #fff;
+}
+
+.watch{
+	background-color: #fff;
+	float: right;
+	margin-left: 30px;
+	padding-bottom: 125px;
+	border-radius: 7px;
+}
+
+.watch:last-child{
+	margin-left: 0;	
+}
+
+.watch img{
+	margin-bottom: 15px
+}
+
+.watch p{
+	margin: 0;
+	text-transform: uppercase;
+	color: #FF3251;
+	font-size: 10px;
+}
+
+.watch p span{
+	color: #797979;
+}
+
+.row{
+	display: block;
+	margin-bottom: 440px;
+}
+
+.gift{
+	display: block;
+	margin: 0 auto;
+}
+
+/* ====================== footer ================== */
+
+footer{
+	background-color: #fff;
+	height: 560px;
+	position: relative;
+}
+
+.footer{
+	width: 1147px;
+	margin: 0 auto;
+}
+
+.contacts{
+	margin-left: 6px;
+	font-size: 14px;
+	width: 385px;
+	padding-top: 80px;
+	display: inline-block;
+}
+
+.contacts h2{
+	color: #FF3251;
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+.contacts p{
+	color: #000000;
+	margin-bottom: 9px;
+}
+
+p.adress{
+	margin-bottom: 20px;
+}
+
+.yand{
+	top: 0;
+	right: 0;
+	height: 560px;
+	position: absolute;
+	border: none;
+	width: 59%;
+}
+
+.buttonsmobile{
+	display: none;
+}
+
+
+/* --------------------adaptiv------------------- */
+@media (max-width: 1000px) {
+	.nav,
+	.sectionAdvantage,
+	.sectionPrice,
+	.footer{
+		width: 100%;
+	}
+	header{
+		height: 600px;
+	}
+	.nav ul{
+		margin-left: 50px;
+	}
+	.nav ul li a{
+		margin-right: 20px;
+	}
+	.nav a.button{
+		margin-right: 70px;
+	}
+	header h1{
+		margin-top: 140px;
+		margin-bottom: 160px;
+	}
+	.sectionAdvantage{
+		padding-top: 50px;
+		padding-bottom: 0;
+	}
+	.sectionAdvantage p{
+		margin-bottom: 40px;
+	}
+	.advantage{
+		width: 50%;
+	}
+	.sectionPrice{
+		padding-top: 40px;
+		padding-bottom: 35px;
+	}
+	.sectionPrice div.buttons a.button{
+		margin-bottom: 35px;
+	}
+	.row{
+		width: 70%;
+		display: inline-block;
+		padding-left: 7%;
+		margin-bottom: 0;
+	}
+	.watch{
+		float: right;
+		margin-bottom: 30px;
+		padding-bottom: 40px;
+	}
+	.watch img{
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	.contacts{
+		margin-left: 40px;
+		padding-top: 60px;
+	}
+	.yand{
+		height: 100%;
+	}
+	footer{
+		height: 100%;
+	}
+}
+
+
+
+@media (max-width: 900px) {
+	header{
+		height: 550px;
+	}
+	.nav a.button{
+		margin-right: 30px;
+	}
+	header h1{
+		margin-bottom: 140px;
+		margin-top: 120px;
+	}
+	.row{
+		width: 70%;
+		padding-left: 11%;
+	}
+}
+
+
+@media (max-width: 800px) {
+
+	.nav ul{
+		margin-left: 20px;
+	}
+	.nav a.button{
+		margin-right: 15px;
+	}
+	.row{
+		width: 100%;
+		padding: 0;
+		margin: 0 auto;
+	}
+	.watch{
+		float: right;
+		width: 50%;
+		margin: 0;
+		box-sizing: border-box;
+		border: 20px solid #f4f6f8;
+	}
+
+	.sectionAdvantage p.clearbr {
+		padding: 0 15px;
+	}
+	.sectionAdvantage p.clearbr br{
+		display: none;
+	}
+}
+@media (max-width: 768px) {
+
+	nav{
+		height: 60px;
+	}
+
+	.nav ul li{
+		line-height: 60px;
+	}
+
+	.nav a.button{
+		margin-top: 10px;
+	}
+
+	header{
+		height: 450px;
+	}
+
+	header h1{
+		font-size: 37px;
+		margin-bottom: 105px;
+	}
+
+	.sectionPrice p{
+		padding: 0 15px;
+	}
+
+	.sectionPrice p br{
+		display: none;
+	}
+
+	.watch p{
+		font-size: 15px;
+	}
+
+}
+
+
+@media (max-width: 640px) {
+
+	.scroll{
+		display: none;
+	}
+
+	.sectionPrice div.buttons{
+		display: none;
+	}
+
+	.buttonsmobile{
+		display: block;
+		margin-left: 50%;
+		transform: translateX(-125px);
+		position: auto;
+		z-index: 1;
+	}	
+
+	.list{
+		border-radius: 10px;
+		border: 1px solid red;
+		text-transform: uppercase;
+		font-size: 13px;
+		color: #ff3251;
+		padding: 13px 25px;
+	    box-sizing: border-box;
+	    width: 250px;
+	    margin-bottom: 20px;
+	}
+
+	option{
+		color: #ff3251;
+		width: 100px;
+	}
+
+	.button{
+		font-size: 14px;
+	}
+
+	.contacts{
+		margin-left: 15px;
+		padding-top: 30px;
+	}
+
+	.yand{
+		height: 100%;
+		width: 100%;
+		position: relative;
+	}
+
+	.nav ul.max{
+		display: none;
+	}
+
+	.navMini{
+		display: block;
+		position: fixed;
+		width: 100%;
+		height: 60px;
+		background-color: #f4f6f8;
+		border-bottom: 1px solid #D9DADB;
+		z-index: 99;
+	}
+
+	nav{
+		background-color: transparent;
+	}
+
+	nav a.help {
+		display: none;
+	}
+
+	.nav-burger,
+	.firt,
+	.second{
+		font-size: 30px;
+		height: 25px;
+		width: 25px;
+		position: absolute;
+		top: 15px;
+		left: 25px;
+	}
+
+	.nav-burger__checkbox {
+		display: none;
+	}
+
+	 .second{
+	 	font-size: 0px;
+	 }
+
+	.nav-burger__checkbox:checked ~ .first {
+		font-size: 0px;
+	}
+
+	.nav-burger__checkbox:checked ~ .second {
+		font-size: 30px;
+	} 
+
+	nav div.navMini ul.mini{
+		margin: 0;
+		margin-top: 60px;
+		width: 30%;
+		display: none;
+	}	
+
+	nav div.navMini ul.mini li{
+		display: block;
+		background-color: #f4f6f8;
+		padding: 0;
+		border: none;
+		padding-left: 20px;
+		border: 1px solid #D9DADB;
+	}
+
+	.nav-burger__checkbox:checked ~ ul.mini {
+		display: block;
+	} 
+
+	.watch{
+		border: 10px solid #f4f6f8;
+	}
+
+	.contacts{
+		padding-top: 20px;
+	}
+
+	.contacts h2{
+		margin-bottom: 15px;
+	}
+
+}
+
+
+@media (max-width: 480px) {
+
+	nav div.navMini ul.mini{
+		width: 45%;	
+	}
+
+	header{
+		height: 350px;
+	}
+
+	header h1{
+		font-size: 28px;
+		margin-top: 80px;
+	}
+
+	.sectionAdvantage,
+	.sectionPrice{
+		padding-top: 25px;
+	}
+
+	.watch{
+		float: none;
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	.watch:last-child{
+		margin: 0 auto;
+	}
+
+	.contacts{
+		width: 100%;
+	}
+
+}
+
+	
+@media (max-width: 320px) {
+	
+	nav div.navMini ul.mini{
+		width: 65%;	
+	}
+
+	nav div.navMini ul.mini{
+		margin-top: 6px;
+	}
+
+	header h1{
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+
+	header{
+		height: 250px;
+	}
+
+	.watch{
+		width: 100%;
+	}
+
+	map{
+		display: none;
+	}
+}
